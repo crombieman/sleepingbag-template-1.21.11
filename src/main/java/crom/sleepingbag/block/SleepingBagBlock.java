@@ -32,4 +32,5 @@ public class SleepingBagBlock extends BedBlock {
         // Don't bounce - just stop vertical movement (default block behavior)
         entity.setDeltaMovement(entity.getDeltaMovement().multiply(1.0, 0.0, 1.0));
     }
+
 }

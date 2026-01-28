@@ -76,7 +76,7 @@ public class SleepingBag implements ModInitializer {
 
 			Item item = new BlockItem(
 					SLEEPING_BAGS.get(color),
-					new Item.Properties().stacksTo(1).setId(itemKey)
+					new Item.Properties().stacksTo(1).useBlockDescriptionPrefix().setId(itemKey)
 			);
 
 			SLEEPING_BAG_ITEMS.put(color, item);

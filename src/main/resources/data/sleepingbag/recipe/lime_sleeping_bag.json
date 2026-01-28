@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "minecraft:lime_wool",
+    "L": "minecraft:leather"
+  },
+  "pattern": [
+    "WWW",
+    "LLL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sleepingbag:lime_sleeping_bag"
+  }
+}

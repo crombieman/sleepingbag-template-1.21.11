@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#sleepingbag:sleeping_bags",
+    "minecraft:lime_dye"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sleepingbag:lime_sleeping_bag"
+  }
+}

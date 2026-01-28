@@ -1,0 +1,6 @@
+{
+  "parent": "sleepingbag:block/sleeping_bag_foot",
+  "textures": {
+    "wool": "minecraft:block/gray_wool"
+  }
+}

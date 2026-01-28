@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip:*)",
+      "Bash(./gradlew build:*)",
+      "Bash(./gradlew runClient:*)",
+      "Bash(dir \"C:\\\\Users\\\\whflo\\\\Desktop\\\\Code Projects\\\\sleepingbag-template-1.21.11\\\\src\\\\main\\\\resources\\\\assets\\\\sleepingbag\\\\models\\\\block\")",
+      "Bash(gradlew.bat build:*)",
+      "Bash(cmd /c \"cd /d C:\\\\Users\\\\whflo\\\\Desktop\\\\Code Projects\\\\sleepingbag-template-1.21.11 && gradlew.bat build\")",
+      "Bash(cmd /c \"cd /d \"\"C:\\\\Users\\\\whflo\\\\Desktop\\\\Code Projects\\\\sleepingbag-template-1.21.11\"\" && gradlew build\")",
+      "Bash(cmd //c \"gradlew.bat build\")",
+      "Bash(dir \"C:\\\\Users\\\\whflo\\\\Desktop\\\\Code Projects\\\\sleepingbag-template-1.21.11\\\\gradlew*\")",
+      "Bash(\"C:\\\\Users\\\\whflo\\\\Desktop\\\\Code Projects\\\\sleepingbag-template-1.21.11\\\\gradlew.bat\" build)"
+    ]
+  }
+}

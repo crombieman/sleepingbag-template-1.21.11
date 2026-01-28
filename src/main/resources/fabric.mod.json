@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "sleepingbag",
+	"version": "${version}",
+	"name": "Sleeping Bag",
+	"description": "Adds dyeable sleeping bags that let you sleep through the night without changing your spawn point.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sleepingbag/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"crom.sleepingbag.SleepingBag"
+		],
+		"client": [
+			"crom.sleepingbag.client.SleepingBagClient"
+		]
+	},
+	"mixins": [
+		"sleepingbag.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
